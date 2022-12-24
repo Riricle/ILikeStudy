@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.MeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <!--
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/me"
+        >
+    </ImageView>
+
+android:layout_above 将该控件的底部至于给定ID的控件之上
+
+android:layout_below 将该控件的顶部至于给定ID的控件之下
+
+android:layout_toLeftOf 将该控件的右边缘和给定ID的控件的左边缘对齐
+
+android:layout_toRightOf 将该控件的左边缘和给定ID的控件的右边缘对齐
+
+android:layout_alignBaseline 该控件的baseline和给定ID的控件的baseline对齐
+
+android:layout_alignBottom 将该控件的底部边缘与给定ID控件的底部边缘
+
+android:layout_alignLeft 将该控件的左边缘与给定ID控件的左边缘对齐
+
+android:layout_alignRight 将该控件的右边缘与给定ID控件的右边缘对齐
+
+android:layout_alignTop 将给定控件的顶部边缘与给定ID控件的顶部对齐
+
+android:alignParentBottom 如果该值为true，则将该控件的底部和父控件的底部对齐
+
+android:layout_alignParentLeft 如果该值为true，则将该控件的左边与父控件的左边对齐
+
+android:layout_alignParentRight 如果该值为true，则将该控件的右边与父控件的右边对齐
+
+android:layout_alignParentTop 如果该值为true，则将空间的顶部与父控件的顶部对齐
+
+android:layout_centerHorizontal 如果值为真，该控件将被至于水平方向的中央
+
+android:layout_centerInParent 如果值为真，该控件将被至于父控件水平方向和垂直方向的中央
+
+android:layout_centerVertical 如果值为真，该控件将被至于垂直方向的中央
+
+    -->
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        >
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="221dp"
+            android:background="@drawable/user"
+            >
+        </LinearLayout>
+
+        <RelativeLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="测试"
+                android:textSize="20sp"
+                android:id="@+id/user_name1"
+                android:layout_width="290dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginStart="50dp"
+                android:background="@drawable/text_underline"
+                android:layout_marginTop="15dp"
+                app:drawableLeftCompat="@mipmap/tab_address_normal">
+            </TextView>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="测试"
+                android:textSize="20sp"
+                android:id="@+id/user_name11"
+                android:layout_width="290dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginStart="50dp"
+                android:background="@drawable/text_underline"
+                android:layout_marginTop="15dp"
+                app:drawableLeftCompat="@mipmap/tab_address_normal">
+            </TextView>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="测试"
+                android:textSize="20sp"
+                android:id="@+id/user_name12"
+                android:layout_width="290dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginStart="50dp"
+                android:background="@drawable/text_underline"
+                android:layout_marginTop="15dp"
+                app:drawableLeftCompat="@mipmap/tab_address_normal">
+            </TextView>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="测试"
+                android:textSize="20sp"
+                android:id="@+id/user_name13"
+                android:layout_width="290dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginStart="50dp"
+                android:background="@drawable/text_underline"
+                android:layout_marginTop="15dp"
+                app:drawableLeftCompat="@mipmap/tab_address_normal">
+            </TextView>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="测试"
+                android:textSize="20sp"
+                android:id="@+id/user_name14"
+                android:layout_width="290dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginStart="50dp"
+                android:background="@drawable/text_underline"
+                android:layout_marginTop="15dp"
+                app:drawableLeftCompat="@mipmap/tab_address_normal">
+            </TextView>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="测试"
+                android:textSize="20sp"
+                android:id="@+id/user_name15"
+                android:layout_width="290dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginStart="50dp"
+                android:background="@drawable/text_underline"
+                android:layout_marginTop="15dp"
+                app:drawableLeftCompat="@mipmap/tab_address_normal">
+            </TextView>
+        </RelativeLayout>
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/logout"
+            android:text="@string/Logout"
+            android:textSize="24sp"
+            android:layout_marginTop="50dp"
+            android:background="#B7FFFFFF"
+            android:textColor="#FF0000"
+            android:layout_margin="80dp"
+            >
+        </Button>
+
+    </LinearLayout>
+</FrameLayout>

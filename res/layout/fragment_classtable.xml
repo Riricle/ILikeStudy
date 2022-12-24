@@ -1,0 +1,232 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <GridLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5"
+        android:rowCount="11"
+        android:background="#FFFAFA"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_rowWeight="0.25"
+            android:text=""
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:text="1"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:text="2"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:text="3"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:text="4"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:text="5"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:text="6"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:text="7"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:text="8"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:text="9"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:text="10"
+            android:gravity="center"/>
+
+
+
+    </GridLayout>
+
+    <GridLayout
+        android:id="@+id/d1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:rowCount="11"
+        android:background="#FFFAFA"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_rowWeight="0.25"
+            android:text="周一"
+            android:textSize="20sp"
+            android:autoSizeMaxTextSize="30sp"
+            android:autoSizeMinTextSize="5sp"
+            android:autoSizeStepGranularity="1sp"
+            android:gravity="center"/>
+
+
+    </GridLayout>
+
+    <GridLayout
+        android:id="@+id/d2"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:rowCount="11"
+        android:background="#FFFAFA"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_rowWeight="0.25"
+
+            android:text="周二"
+            android:textSize="20dp"
+            android:gravity="center"/>
+
+
+    </GridLayout>
+
+    <GridLayout
+        android:id="@+id/d3"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:rowCount="11"
+        android:background="#FFFAFA"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_rowWeight="0.25"
+
+            android:text="周三"
+            android:textSize="20dp"
+            android:gravity="center"/>
+
+
+    </GridLayout>
+
+    <GridLayout
+        android:id="@+id/d4"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:rowCount="11"
+        android:background="#FFFAFA"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_rowWeight="0.25"
+            android:text="周四"
+            android:textSize="20dp"
+            android:gravity="center"/>
+
+
+    </GridLayout>
+
+    <GridLayout
+        android:id="@+id/d5"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:rowCount="11"
+        android:background="#FFFAFA"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_rowWeight="0.25"
+            android:text="周五"
+            android:textSize="20dp"
+            android:gravity="center"/>
+
+
+    </GridLayout>
+
+    <GridLayout
+        android:id="@+id/d6"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#FFFAFA"
+        android:rowCount="11"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_rowWeight="0.25"
+            android:text="周六"
+            android:textSize="20dp"
+            android:gravity="center"/>
+
+
+    </GridLayout>
+
+    <GridLayout
+        android:id="@+id/d7"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:rowCount="11"
+        android:background="#FFFAFA"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_rowWeight="0.25"
+
+            android:text="周日"
+            android:textSize="20dp"
+            android:gravity="center"/>
+
+
+    </GridLayout>
+</LinearLayout>
